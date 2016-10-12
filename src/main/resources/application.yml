@@ -1,0 +1,21 @@
+spring:
+  batch:
+    job:
+      enabled: false
+  data:
+      elasticsearch:
+        clusterName: elasticsearch
+        clusterNodes: localhost:9300
+        #local: true
+        properties:
+          http:
+            enabled: true
+        repositories:
+          enabled: true
+
+mysql:
+  password: mywpd
+  user: usr
+  host: localhost
+  port: 3306
+  dbName: db_site1
